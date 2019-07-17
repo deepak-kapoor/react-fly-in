@@ -1,6 +1,6 @@
 {
   "name": "react-fly-in",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "dist/main.js",
   "scripts": {
@@ -15,11 +15,13 @@
   "author": "Deepak Kapoor <kapoordeepak@gmail.com> (http://bitofbinary.com)",
   "license": "MIT",
   "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
   "devDependencies": {
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
     "source-map-loader": "^0.2.4",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
