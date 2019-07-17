@@ -1,0 +1,12 @@
+node_modules/
+coverage/
+build/
+scripts/
+*.bak
+*.log
+.env*
+yarn-error.log
+.tern-port
+.nvm
+.DS_Store
+.next/
