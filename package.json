@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "registry": "https://registry.npmjs.org/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepak-kapoor/react-fly-in.git"
+  }
   "keywords": [],
   "author": "Deepak Kapoor <kapoordeepak@gmail.com> (http://bitofbinary.com)",
   "license": "MIT",
