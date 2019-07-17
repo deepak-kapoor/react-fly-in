@@ -8,7 +8,7 @@
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "lib": ["es2015", "dom"],
+    "lib": ["es6", "dom"],
     "baseUrl": "src",
   },
 
@@ -18,5 +18,6 @@
   "exclude": [
     "./__mocks__/**/*",
     "**/__tests__/**/*",
+    "node_modules"
   ]
 }
