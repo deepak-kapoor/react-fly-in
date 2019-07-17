@@ -1,13 +1,17 @@
 import React from 'react'
 
-const FlyInContext = React.createContext()
+const FlyInContext = React.createContext({ showPanel: false, toggleFlyIn: null })
 const FlyInConsumer = FlyInContext.Consumer
 
-const FlyInProvider = ({children}): JSX.Element => {
+interface FlyInProviderProps {
+  children: object
+}
+
+const FlyInProvider = ({children}: FlyInProviderProps): JSX.Element => {
   const [showPanel, setShowPanel] = React.useState(false)
 
-  const toggleFlyIn = (): null =>
-    setShowPanel((showPanel): null => !showPanel)
+  const toggleFlyIn = (): void =>
+    setShowPanel((showPanel): boolean => !showPanel)
 
   return (
     <FlyInContext.Provider value={{showPanel, toggleFlyIn}} >

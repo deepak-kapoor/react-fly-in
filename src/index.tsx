@@ -1,7 +1,11 @@
 import React from 'react'
 import { FlyInConsumer } from './FlyInProvider'
 
-const FlyIn = ({ children }): JSX.Element => {
+interface FlyInProviderProps {
+  children: object
+}
+
+const FlyIn = ({ children }: FlyInProviderProps): JSX.Element => {
   return (
     <FlyInConsumer>
       {
