@@ -9,8 +9,7 @@
   "keywords": [],
   "author": "Deepak Kapoor <kapoordeepak@gmail.com> (http://bitofbinary.com)",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
